@@ -2,9 +2,9 @@ import { StyleSheet, Text, View, Image, Dimensions } from "react-native";
 import { Camera, CameraType } from "expo-camera";
 import * as MediaLibrary from "expo-media-library";
 import { useEffect, useRef, useState } from "react";
-import Button from "./src/components/Button";
+import Button from "./Button";
 
-export default function App() {
+export default function CameraScreen() {
   const [hasCameraPermission, setHasCameraPermission] = useState(null);
   const [image, setImage] = useState(null);
 
